@@ -1,0 +1,118 @@
+
+.App
+    background: #333333
+    color: white
+    min-height: 100vh
+header
+    height: 100px
+    display: flex
+    padding: 3em
+    align-items: center
+    border-bottom: 1px solid #555555
+    h1
+        text-transform: uppercase
+        font-weight: 300
+
+main
+    padding: 5em 3em
+    min-width: 100vw
+    display: grid
+    grid-auto-flow: row
+    row-gap: 1em
+    align-items: center
+
+    .content
+        background: #222222
+        position: relative
+        min-height: 400px
+        width: 100%
+        display: grid
+        grid-template-rows: 350px 1fr
+        justify-items: center
+        overflow: hidden
+        border-radius: 16px
+        padding-top: 2em
+
+        .img-container
+            padding: 2em 0 1em
+            overflow: hidden
+            height: 100%
+            width: 350px
+            align-self: center
+            overflow: hidden
+            img
+                height: 100%
+                width: 100%
+                border-radius: 16px
+                overflow: hidden
+
+        .magic-menu
+            align-self: flex-end
+            margin: 2em 0
+
+    .content-battle
+        background: #222222
+        position: relative
+        min-height: 400px
+        width: 100%
+        padding: 3em
+        padding-top: 4em
+
+        display: grid
+        gap: 1em
+        align-items: center
+        justify-items: center
+
+        border-radius: 16px
+
+    .float
+        position: absolute
+        top: 1em
+        left: 1em
+
+    .content-gql
+        position: relative
+        background: #222222
+        border-radius: 16px
+        padding: 4em 3em 3em 3em
+        display: grid
+        grid-auto-flow: row
+        gap: 1em
+
+        .query
+            position: absolute
+            font-family: "Lucida Console", "Courier New", monospace
+
+            top: 30px
+            right: 30px
+            border-radius: 12px
+            padding: .3em
+
+            width: 200px
+            min-height: 200px
+            background: #ffffffa2
+            color: #222
+
+            white-space: pre-wrap
+
+        .selectors
+            display: grid
+            grid-auto-flow: column
+            gap: 2em
+            justify-content: flex-start
+            input
+                margin-right: .5em
+
+        .list
+            border: 1px solid #444
+            padding: 2em
+            height: 300px
+            overflow: auto
+
+            ul
+                width: 100%
+                display: grid
+                gap: 1em
+                grid-auto-flow: columns
+                li
+                    width: 100%
