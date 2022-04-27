@@ -1,0 +1,58 @@
+.btn-cardo-primary
+    background: #406398
+    transition: .3s
+    border: none
+    color: white
+
+    &:hover
+        background: black
+        transition: .3s
+
+.btn-cardo-ghost
+    background: none
+    border: 1px solid #406398
+    color: #406398
+    transition: .3s
+
+    &:hover
+        background: #406398
+        color: white
+        transition: .3s
+
+.btn-cardo-sm,.btn-cardo-md,.btn-cardo-lg
+    border-radius: .5em
+    width: max-content
+
+    cursor: pointer
+
+    display: flex
+    align-items: center
+    line-height: 0
+
+    .icon
+        height: 30px
+        max-width: 30px
+        overflow: hidden
+        display: grid
+        align-items: center
+
+    .icon-left
+        margin-right: 1em
+    .icon-right
+        margin-left: 1em
+
+.btn-cardo-sm
+    height: 40px
+    padding: 1em 2em
+    h3
+        font-size: 14px
+.btn-cardo-md
+    height: 50px
+    padding: 1.5em 3em
+    h3
+        font-size: 16px
+.btn-cardo-lg
+    height: 60px
+    padding: 2em 4em
+    h3
+        font-size: 18px

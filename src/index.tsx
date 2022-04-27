@@ -1,4 +1,4 @@
-import BigButton from "./lib/BigButton"
-import DummyCounter from "./lib/DummyCounter"
+import Button from "./lib/Button";
+import Modal from "./lib/Modal";
 
-export  {BigButton,DummyCounter}
+export { Button, Modal };
